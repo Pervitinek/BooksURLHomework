@@ -1,0 +1,35 @@
+#container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.containerInContainer{
+    width: 200px;
+    height: 200px;
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.1s;
+}
+.containerInContainer:hover{
+    padding: 1px;
+    cursor: pointer;
+}
+#hledat{
+    text-align: center;
+    display: unset;
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
